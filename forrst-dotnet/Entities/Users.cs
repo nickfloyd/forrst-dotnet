@@ -8,13 +8,13 @@ using forrst_dotnet.Helpers;
 namespace forrst_dotnet.Entities {
     public class Users : List<User> {
 
-        public static User Get(int? id) {
+        public static User Find(int? id) {
             User user = new User();
             user.parms.Add("id", id.ToString());
             return (User)user.GetContent();
         }
 
-        public static User Get(string username) {
+        public static User Find(string username) {
             User user = new User();
             user.parms.Add("username", username);
             return (User)user.GetContent();

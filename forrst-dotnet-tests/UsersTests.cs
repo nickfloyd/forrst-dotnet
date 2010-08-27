@@ -15,14 +15,14 @@ namespace forrst_dotnet_tests {
         }
         
         [TestMethod]
-        public void GetUserByID() {
-            User user = Users.Get(9199);
+        public void FindUserByID() {
+            User user = Users.Find(9199);
             Assert.AreEqual("nickfloyd", user.username);
         }
 
         [TestMethod]
-        public void GetUserByUserName() {
-            User user = Users.Get("nickfloyd");
+        public void FindUserByUserName() {
+            User user = Users.Find("nickfloyd");
             Assert.AreEqual(9199, user.id);
         }
     }
