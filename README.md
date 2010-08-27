@@ -14,6 +14,5 @@ To use the library, just ad a reference to your project.  The following is how y
 Json serialization: I chose to use [James Newton-King's](http://twitter.com/jamesnk) [Json.NET](http://james.newtonking.com/pages/json-net.aspx) serializer over .net data contracts.  
  
 ##Version Changes##
-<<<<<<< HEAD
 None
 
