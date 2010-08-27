@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #forrst-dotnet#
 
 ##Purpose##
@@ -16,5 +15,3 @@ Json serialization: I chose to use [James Newton-King's](http://twitter.com/jame
  
 ##Version Changes##
 None
-=======
->>>>>>> 02ac872c195c558f18f53d268e20300c96c81355
