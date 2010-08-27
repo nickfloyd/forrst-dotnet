@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "forrst-dotnet-tests", "forrst-dotnet-tests\forrst-dotnet-tests.csproj", "{2C384EA0-58C4-401F-A1E9-6C1EF573FBFA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "forrst-dotnet", "forrst-dotnet\forrst-dotnet.csproj", "{97FC0556-5D80-42E3-8CD8-102753B0E99A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2C384EA0-58C4-401F-A1E9-6C1EF573FBFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C384EA0-58C4-401F-A1E9-6C1EF573FBFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C384EA0-58C4-401F-A1E9-6C1EF573FBFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C384EA0-58C4-401F-A1E9-6C1EF573FBFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97FC0556-5D80-42E3-8CD8-102753B0E99A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97FC0556-5D80-42E3-8CD8-102753B0E99A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97FC0556-5D80-42E3-8CD8-102753B0E99A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97FC0556-5D80-42E3-8CD8-102753B0E99A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
