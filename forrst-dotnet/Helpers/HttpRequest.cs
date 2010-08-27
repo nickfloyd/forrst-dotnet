@@ -49,8 +49,6 @@ namespace forrst_dotnet.Helpers {
             }
             return null;
         }
-
-
         public static string GetContent(string contentType, HttpMethod method, string urlPath) {
             Uri url = new Uri(urlPath);
             string content = null;

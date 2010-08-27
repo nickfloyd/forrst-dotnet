@@ -18,7 +18,12 @@ namespace forrst_dotnet_tests {
         public void GetUserByID() {
             User user = Users.Get(9199);
             Assert.AreEqual("nickfloyd", user.username);
-            //User user = Users.get("nickfloyd");
+        }
+
+        [TestMethod]
+        public void GetUserByUserName() {
+            User user = Users.Get("nickfloyd");
+            Assert.AreEqual(9199, user.id);
         }
     }
 }
